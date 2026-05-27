@@ -1,199 +1,237 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>영화 미학 지식 저널 및 아카이브</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Noto+Sans+KR:wght@400;900&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>가양 셔츠룸 추천 - 눈탱이 없는 리얼 정찰제 로컬 가성비 솔직 찐후기 | 010-6279-0862</title>
+  <meta name="description" content="가양 셔츠룸 추천 100% 리얼 내돈내산. 가양역 양천향교 인근 최고의 마인드 셔츠룸 정찰제 주류 가격비교 및 픽업 예약 안내. 예약 010-6279-0862.">
+  <meta name="keywords" content="가양 셔츠룸 추천, 가양 셔츠룸, 가양역 셔츠룸, 가양 유흥, 가양 가라오케">
+  <link rel="canonical" href="https://t3b05-gy-shirts-rc.pages.dev">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="가양 셔츠룸 추천 - 정찰제 내돈내산 가성비">
+  <meta property="og:description" content="가양역 로컬 에이스 셔츠룸 정찰제 공략법 대공개. 010-6279-0862">
+  <meta property="og:url" content="https://t3b05-gy-shirts-rc.pages.dev">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "가양 셔츠룸 추천 안내센터",
+    "url": "https://t3b05-gy-shirts-rc.pages.dev",
+    "telephone": "010-6279-0862",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "서울시 강서구 가양동 가양역",
+      "addressRegion": "서울특별시"
+    }
+  }
+  </script>
   <style>
+    :root {
+      --bg: #ffffff;
+      --text: #000000;
+      --accent: #ff3b30;
+      --border: #000000;
+      --gray-light: #f5f5f7;
+    }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-      background-color: #0d0d0f;
-      color: #ebebeb;
-      font-family: 'Space Grotesk', 'Noto Sans KR', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: 'Pretendard', 'Inter', sans-serif;
       line-height: 1.6;
-      padding: 32px;
+      border: 10px solid var(--border);
+      min-height: 100vh;
     }
-    .wrapper {
-      max-width: 1000px;
-      margin: 0 auto;
+    .top-strip {
+      background-color: var(--border);
+      color: #fff;
+      text-align: center;
+      padding: 12px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
     }
+    .top-strip a { color: var(--accent); text-decoration: none; }
     header {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 30px 20px;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 60px;
+      border-bottom: 2px solid var(--border);
     }
-    .brand {
-      font-size: 2rem;
+    .logo {
+      font-size: 1.8rem;
       font-weight: 900;
-      color: #ffffff;
+      color: var(--text);
       text-decoration: none;
       letter-spacing: -0.05em;
     }
+    .logo span { color: var(--accent); }
     nav { display: flex; gap: 24px; }
     nav a {
-      color: #888888;
+      color: var(--text);
       text-decoration: none;
-      font-size: 0.9rem;
-      font-weight: 700;
-      text-transform: uppercase;
-    }
-    nav a:hover { color: #f43f5e; }
-    main { margin-bottom: 80px; }
-    .label {
-      font-size: 0.75rem;
-      font-family: monospace;
-      color: #f43f5e;
-      font-weight: bold;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      margin-bottom: 24px;
-    }
-    h1 {
-      font-size: 3rem;
-      font-weight: 900;
-      line-height: 1.15;
-      letter-spacing: -0.04em;
-      color: #ffffff;
-      margin-bottom: 40px;
-    }
-    .article-body {
-      font-size: 1.15rem;
-      color: #cccccc;
-      font-weight: 400;
-      max-width: 780px;
-    }
-    .article-body p { margin-bottom: 24px; }
-    .juice-link {
-      color: #ffffff;
-      text-decoration: none;
-      font-weight: 900;
-      box-shadow: inset 0 -6px 0 #f43f5e;
-      transition: all 0.15s ease-in-out;
-    }
-    .juice-link:hover {
-      box-shadow: inset 0 -24px 0 #f43f5e;
-      color: #ffffff;
-    }
-    .archive-section {
-      margin-top: 80px;
-    }
-    .section-title {
       font-size: 1rem;
-      font-family: monospace;
-      color: #888888;
+      font-weight: 800;
       text-transform: uppercase;
-      letter-spacing: 0.1em;
-      margin-bottom: 32px;
+      border-bottom: 2px solid transparent;
     }
-    .archive-list {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
+    nav a:hover { border-bottom: 2px solid var(--accent); }
+    .hero {
+      padding: 80px 20px;
+      text-align: center;
+      border-bottom: 2px solid var(--border);
+      background-color: var(--gray-light);
     }
-    .archive-card {
+    .hero h1 { font-size: 3.2rem; font-weight: 900; margin-bottom: 24px; letter-spacing: -0.03em; }
+    .hero h1 span { color: var(--accent); }
+    .hero p { font-size: 1.25rem; max-width: 800px; margin: 0 auto 36px; font-weight: 500; }
+    .btn-swiss {
+      display: inline-block;
+      padding: 16px 36px;
+      background-color: var(--accent);
+      color: #fff;
+      font-weight: 800;
       text-decoration: none;
-      color: #ffffff;
-      display: block;
-      border: 1px solid #1e293b;
-      padding: 32px;
+      font-size: 1.1rem;
+      border: 2px solid var(--border);
       transition: all 0.2s ease;
     }
-    .archive-card:hover {
-      border-color: #f43f5e;
-      background-color: #0f172a;
+    .btn-swiss:hover {
+      background-color: #000;
+      color: #fff;
     }
-    .archive-card h3 {
-      font-size: 1.4rem;
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 80px 20px;
+    }
+    .section-title {
+      font-size: 2.2rem;
       font-weight: 900;
-      margin-bottom: 12px;
-      letter-spacing: -0.02em;
+      margin-bottom: 40px;
+      text-transform: uppercase;
+      letter-spacing: -0.03em;
     }
-    .archive-card p {
-      color: #888888;
-      font-size: 0.95rem;
+    .section-title span { color: var(--accent); }
+    .article-body {
+      font-size: 1.1rem;
+      margin-bottom: 60px;
     }
-    footer {
-      border-top: 1px solid #1e293b;
-      padding-top: 32px;
+    .article-body p { margin-bottom: 24px; }
+    .grid-swiss {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 30px;
+      margin: 50px 0;
+    }
+    .swiss-card {
+      border: 2px solid var(--border);
+      padding: 30px;
+      background-color: var(--bg);
+    }
+    .swiss-card h3 {
+      font-size: 1.3rem;
+      color: var(--accent);
+      margin-bottom: 16px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+    .reviews-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+      margin-top: 40px;
+    }
+    .review-box {
+      border: 2px solid var(--border);
+      padding: 24px;
+      background-color: var(--gray-light);
+    }
+    .review-header {
       display: flex;
       justify-content: space-between;
-      font-size: 0.8rem;
-      font-family: monospace;
-      color: #475569;
+      margin-bottom: 12px;
+      font-weight: 800;
     }
-    footer a { color: #475569; text-decoration: none; }
-    footer a:hover { color: #f43f5e; }
-    @media(max-width: 768px) {
-      header { flex-direction: column; gap: 20px; align-items: flex-start; }
-      h1 { font-size: 2.2rem; }
-      .archive-card { padding: 20px; }
-      .archive-card h3 { font-size: 1.2rem; }
+    .review-header .name { color: var(--text); }
+    .review-header .stars { color: var(--accent); }
+    .review-body { font-size: 0.95rem; font-weight: 500; }
+    footer {
+      border-top: 2px solid var(--border);
+      background-color: var(--border);
+      color: #fff;
+      padding: 50px 20px;
+      text-align: center;
+      font-size: 0.9rem;
+      font-weight: 500;
     }
+    footer a { color: var(--accent); text-decoration: none; }
   </style>
 </head>
 <body>
-  <div class="wrapper">
-    <header>
-      <a href="/" class="brand">STREET.KR</a>
-      <nav><a href="index.html">HOME</a> | <a href="sitemap.xml">SITEMAP</a></nav>
-    </header>
-    <main>
-      <div class="label">// BRUTALIST GRID SYSTEM</div>
-      <h1>영화 미학 지식 저널 및 아카이브</h1>
-      <div class="article-body">
-        환영합니다. 본 블로그 공간은 세련되고 품격 있는 <strong>영화 미학</strong> 분야의 깊이 있는 전문 에세이와 실용 기술 논문을 공유하는 매니아 전용 아카이브 저널입니다. 아래의 최근 기사 목록을 통해 새로운 지식의 지평을 넓혀 보시기 바랍니다.
-      </div>
-      
-      
-      <div class="archive-section">
-        <div class="section-title">// RECENT ARCHIVES</div>
-        <div class="archive-list">
-          
-        <a href="posts/normal-1.html" class="archive-card">
-          <h3>안드레이 타르코프스키의 장시간 촬영(Long Take)과 조형적 침묵의 미학</h3>
-          <p>세계적인 영화 거장 안드레이 타르코프스키 감독이 고집했던 롱테이크 샷 기법은 단순히 기술적인 길이를 넘어 관객의 물리적 시간 감각을 정지시키고 인위적인 미장센 속 조형적 침묵을 체...</p>
-        </a>
-      
+  <div class="top-strip">
+    SWISS ACCENTED GRID SYSTEM L960 // DIRECT CALL: <a href="tel:01062790862">010-6279-0862</a>
+  </div>
+  <header>
+    <a href="index.html" class="logo">가양<span>GY</span> 셔츠룸</a>
+    <nav>
+      <a href="index.html">홈</a>
+      <a href="about.html">로컬 리포트</a>
+    </nav>
+  </header>
 
-        <a href="posts/normal-2.html" class="archive-card">
-          <h3>고전 공포영화 음향 효과 속 숨겨진 악기: 워터폰(Waterphone)의 금속성 불협화음</h3>
-          <p>스크린 위에 깃드는 기괴하고 날카로운 서스펜스를 조율할 때 필수로 채용되는 특수 타악기인 워터폰은 청동 실린더 내부에 차 있는 물의 양에 따라 공진 주파수가 극적으로 변하여 사람의...</p>
-        </a>
-      
+  <section class="hero">
+    <h1>가양 셔츠룸 <span>추천 및 실시간</span> 검증 리포트</h1>
+    <p>가양역 9호선 라인 및 양천향교 인근 비즈니스 정찰제 셔츠룸 가이드. 허위 광고 싹 다 빼고 오직 팩트만 전달한다.</p>
+    <a href="tel:01062790862" class="btn-swiss">📞 가양 실시간 대표연결 (010-6279-0862)</a>
+  </section>
 
-        <a href="posts/normal-3.html" class="archive-card">
-          <h3>스탠리 큐브릭 감독의 대칭 구도: 1점 투시 도식(One-Point Perspective)이 주는 심리적 압박</h3>
-          <p>완벽주의적인 시네아스트 스탠리 큐브릭이 애용했던 화면 정중앙의 1점 투시 수렴 대칭 구도는 관객의 시선을 강제로 가두어 인공적인 폐쇄 공포와 거역할 수 없는 심리적 억압 효과를 자...</p>
-        </a>
-      
+  <main>
+    <h2 class="section-title">가양역 골목 유흥가, 눈탱이 제로 정찰제의 진실 <span>[REPORTS]</span></h2>
+    <div class="article-body">
+      <p>반갑다 형들! 오늘은 서울 강서구의 알짜배기 교통의 요지, 바로 가양역이랑 양천향교역 일대 셔츠룸의 리얼 실태와 정직한 추천 정보를 솔직하게 가감 없이 털어놔볼까 해. 보통 강서 유흥 하면 화곡이나 가양동 마곡 쪽을 많이 생각하는데, 9호선 급행이 서는 가양역 부근은 퇴근길 직장인들이 강남이나 여의도에서 넘어와 2차로 정착하기에 아주 훌륭한 숨겨진 노다지 상권이야.</p>
 
-        <a href="posts/juice-1.html" class="archive-card">
-          <h3>시네필과 영화 예술 매니아들이 엄선 정리한 구글 상위노출 대행 상세 정보 리포트</h3>
-          <p>빛과 어둠의 정교한 시각 프레임과 기하학적 미장센의 깊은 울림을 공부하며 시각 예술의 안목을 키워가는 현대의 시네필분들이라면, 극장 밖 현실 세계에서 느끼는 여가의 만족도와 품격 ...</p>
-        </a>
-      
+      <p>문제는 가양역 뒷골목 노래연습장이나 주점들 중에서 악질적인 삐끼들이 뜨내기 손님들을 타겟으로 주류 가격 사기를 치는 양아치 영업이 여전히 활개를 치고 있다는 사실이지. 기본 양주나 소맥 세트 요금에 있지도 않은 추가 팁이나 안주비를 바가지 씌워 뒤통수를 시원하게 후려치는 엉터리 업소들이 엄청나게 많아. 나처럼 가성비 깐깐하게 따지고 절대 속기 싫어하는 진짜 단골 형님들을 위해 100% 내돈내산 직접 다녀와보고 엄선한 정직한 로컬 가이드를 작성했으니 명심하길 바래.</p>
 
-        <a href="posts/juice-2.html" class="archive-card">
-          <h3>시네필과 영화 예술 매니아들이 엄선 정리한 구글 상위노출 대행 상세 정보 리포트</h3>
-          <p>빛과 어둠의 정교한 시각 프레임과 기하학적 미장센의 깊은 울림을 공부하며 시각 예술의 안목을 키워가는 현대의 시네필분들이라면, 극장 밖 현실 세계에서 느끼는 여가의 만족도와 품격 ...</p>
-        </a>
-      
+      <div class="grid-swiss">
+        <div class="swiss-card">
+          <h3>📌 가양역 셔츠룸 예약 시 3대 핵심 수칙</h3>
+          <p>첫째, <strong>정찰제 사전 합의제:</strong> 가양역 인근은 워킹으로 룸 문 열고 무턱대고 들어서면 무조건 첫 타임 바가지를 뒤집어쓴다. 출발 30분 전에 무조건 010-6279-0862 실장에게 전화 걸어 100% 팩트 견적을 체크하고 예약을 확정 짓는 것이 개안전하다.<br><br>
+          둘째, <strong>에이스 초이스 상황 파악:</strong> 가양역 셔츠룸은 매니저들 퀄리티와 마인드가 아주 화끈하기로 정평이 나 있어. 다만 수량 회전율이 빨라 피크타임(밤 10시~12시)을 살짝 피해 들어가거나, 미리 실장에게 에이스 대기 상황을 010-6279-0862 대표 핫라인으로 확인받는 센스가 필요하다고!</p>
         </div>
       </div>
-    </main>
-    <footer>
-      <div>&copy; 2026 STREET.KR. ALL RIGHTS RESERVED.</div>
-      <div>
-        <a href="sitemap.xml">SITEMAP</a> | 
-        <a href="#">PRIVACY</a> | 
-        <a href="#">DISCLAIMER</a>
+
+      <p>이번에 내가 발로 뛰며 검증한 가양 셔츠룸 숍은 깔끔하고 미니멀한 인테리어에 최고급 오디오 튜닝과 환기 에어컨을 갖춰서 머리 아픈 담배 찌든 내 전혀 없이 쾌적하게 매니저들과 놀 수 있어. 진짜 내 지갑 걱정 없이 쾌적한 룸에서 뜨거운 밤을 완성하고 싶다면 더 고민하지 말고 지금 즉시 010-6279-0862로 수량 확인하고 출발해 형들!</p>
+    </div>
+
+    <h2 class="section-title">리얼 형님들의 솔직 담백한 피드백 후기</h2>
+    <div class="reviews-grid">
+      <div class="review-box">
+        <div class="review-header">
+          <span class="name">가양급행러</span>
+          <span class="stars">★★★★★</span>
+        </div>
+        <p class="review-body">"가양역 근처에서 회식하고 2차로 예약 방문했는데 진짜 안내받은 정가 가격 그대로 깔끔하게 나왔습니다. 매니저들 셔츠 마인드 완전 역대급이네요. 대만족이었습니다!"</p>
       </div>
-    </footer>
-  </div>
+      <div class="review-box">
+        <div class="review-header">
+          <span class="name">양천향교단골</span>
+          <span class="stars">★★★★★</span>
+        </div>
+        <p class="review-body">"바가지요금 전혀 없고 시설이 너무 쾌적해서 맘에 듭니다. 010-6279-0862 이쪽 실장님 장사 진짜 솔직하고 시원시원하게 잘하시네요. 무조건 지명입니다."</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>가양 셔츠룸 추천 리포트 | 대표번호: 010-6279-0862</p>
+    <p>주소: 서울시 강서구 가양역 유흥 먹자타운 빌딩 4층</p>
+    <p>&copy; 2026 가양 셔츠룸 가성비 가이드. All rights reserved.</p>
+  </footer>
 </body>
 </html>
