@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>가양 셔츠룸 추천 블로그 - 형아들 다 여기 와</title>
+<meta name="description" content="가양 셔츠룸 후기와 추천 꿀팁. 직접 가본 형의 솔직한 이야기. 진짜 정보만 드립니다.">
+<meta name="keywords" content="가양 셔츠룸 추천, 가양 셔츠룸 후기, 가양 셔츠룸 가격, 가양 셔츠룸 블로그, 가양 셔츠룸">
+<link rel="canonical" href="https://t3b05-gy-shirts-rc.vercel.app/">
+<meta name="bpaas-design-system" content="brutalist-avantgarde">
+<meta name="bpaas-design-theme" content="kr-neon-void">
+<!-- OG Meta -->
+<meta property="og:title" content="가양 셔츠룸 추천 블로그 - 형아들 다 여기 와">
+<meta property="og:description" content="가양 셔츠룸 후기와 추천 꿀팁. 직접 가본 형의 솔직한 이야기.">
+<meta property="og:url" content="https://t3b05-gy-shirts-rc.vercel.app/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ko_KR">
+<!-- Twitter Meta -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="가양 셔츠룸 추천 블로그 - 형아들 다 여기 와">
+<meta name="twitter:description" content="가양 셔츠룸 후기와 추천 꿀팁. 직접 가본 형의 솔직한 이야기.">
+<style>
+/* Reset & Base */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background: #0a0a0a;
+  color: #e0e0e0;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+/* Brutalist DNA */
+h1, h2, h3, h4 {
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+}
+h1 {
+  font-size: 2.8rem;
+  border-left: 8px solid #ff0055;
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+h2 {
+  font-size: 2rem;
+  border-bottom: 4px solid #ff0055;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.2rem;
+  display: inline-block;
+}
+h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+}
+p {
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+  color: #ccc;
+}
+a {
+  color: #ff0055;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #ff6699;
+}
+/* spacing system */
+section {
+  padding: 4rem 1.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+/* borders & textures */
+.brutal-border {
+  border: 4px solid #ff0055;
+  padding: 1.5rem;
+  background: #111;
+  box-shadow: 8px 8px 0 #ff0055;
+}
+.brutal-border-accent {
+  border: 4px solid #00ffaa;
+  padding: 1.5rem;
+  background: #111;
+  box-shadow: 8px 8px 0 #00ffaa;
+}
+/* Nav */
+nav {
+  background: #111;
+  border-bottom: 4px solid #ff0055;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+nav .logo {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+nav ul li a {
+  color: #ccc;
+  font-size: 1.1rem;
+  padding: 0.5rem 0;
+  border-bottom: 2px solid transparent;
+}
+nav ul li a:hover,
+nav ul li a.active {
+  color: #ff0055;
+  border-bottom-color: #ff0055;
+}
+.hamburger-menu {
+  display: none;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #fff;
+  background: none;
+  border: none;
+}
+/* tel link */
+.tel-link {
+  display: inline-block;
+  background: #ff0055;
+  color: #fff;
+  padding: 0.8rem 1.8rem;
+  font-weight: 900;
+  font-size: 1.2rem;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+.tel-link:hover {
+  background: #cc0044;
+  color: #fff;
+  box-shadow: 4px 4px 0 #fff;
+}
+/* Blog card */
+.blog-card {
+  background: #1a1a1a;
+  border: 3px solid #333;
+  padding: 2rem;
+  margin-bottom: 2.5rem;
+  transition: 0.2s;
+}
+.blog-card:hover {
+  border-color: #ff0055;
+  box-shadow: 6px 6px 0 #ff0055;
+}
+.blog-card .meta {
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 0.8rem;
+}
+.blog-card h3 {
+  margin-bottom: 0.5rem;
+}
+.blog-card p {
+  margin-bottom: 0.8rem;
+}
+/* FAQ */
+.faq-item {
+  margin-bottom: 1.5rem;
+  padding: 1.2rem;
+  background: #121212;
+  border-left: 4px solid #00ffaa;
+}
+.faq-item h4 {
+  font-size: 1.1rem;
+  color: #00ffaa;
+  margin-bottom: 0.5rem;
+}
+.faq-item p {
+  margin-bottom: 0;
+}
+/* Footer */
+footer {
+  background: #0d0d0d;
+  border-top: 4px solid #ff0055;
+  text-align: center;
+  padding: 2rem 1.5rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+/* responsive */
+@media (max-width: 768px) {
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.6rem; }
+  nav ul { display: none; flex-direction: column; width: 100%; gap: 1rem; padding: 1rem 0; }
+  nav ul.show { display: flex; }
+  .hamburger-menu { display: block; }
+  .tel-link { font-size: 1rem; padding: 0.6rem 1.2rem; }
+}
+</style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+  <div class="logo">✧ 가양 셔츠룸</div>
+  <button class="hamburger-menu" onclick="document.querySelector('nav ul').classList.toggle('show')">☰</button>
+  <ul>
+    <li><a href="/">홈</a></li>
+    <li><a href="/blog" class="active">블로그</a></li>
+    <li><a href="/faq">FAQ</a></li>
+    <li><a href="/contact">연락처</a></li>
+  </ul>
+  <a href="tel:010-6279-0862" class="tel-link">📞 010-6279-0862</a>
+</nav>
+
+<!-- Blog section -->
+<section>
+  <div class="container">
+    <h1>블로그</h1>
+    <p class="brutal-border-accent" style="margin-bottom: 2rem; font-size: 1.2rem; padding: 1.2rem;">
+      형아들이 직접 경험한 가양 셔츠룸 후기 &amp; 꿀팁. 솔직하게 다 까발린다.
+    </p>
+
+    <!-- Blog Post -->
+    <article class="blog-card">
+      <div class="meta">📅 2025.03.07 · ✍️ 형아 · 🔥 조회 1,234</div>
+      <h2>가양 셔츠룸, 진짜 후기 써본다</h2>
+      <p>
+        야, 나는 원래 셔츠룸 같은 데 별로 관심 없었어. 근데 가양 사는 형이 “한 번 가보자” 해서 따라갔거든? 
+        가양 셔츠룸 중에서도 <strong>여기</strong> 추천하더라. 위치도 역에서 5분 거리라 찾기 쉽고, 
+        건물부터 뭔가 있어 보였어. 입구부터 조명이 은은하고 인테리어도 깔끔하더라.
+      </p>
+      <p>
+        들어가니까 매니저님들이 엄청 친절하게 맞아줬어. 처음이니까 긴장됐는데, 분위기 풀어주는 센스도 좋고 
+        대화도 잘 통했어. 우리는 2시간 코스로 했는데, 시간 가는 줄 몰랐다. 
+        서비스도 빵빵하고, 특히 <strong>맥주랑 안주</strong>가 무한 리필이라서 완전 득템한 기분.
+      </p>
+      <p>
+        가격대는 다른 데랑 비슷하거나 조금 더 합리적인 느낌? 근데 퀄리티는 훨씬 낫다. 
+        형들이 그러는데 “가양 셔츠룸 중에 여기가 탑”이라고 하더라. 나도 인정.
+        <br><br>
+        <strong>꿀팁 하나 준다.</strong> 주말에는 예약 필수야. 안 그러면 최소 30분은 기다려야 할 수도 있어. 
+        전화 번호는 <a href="tel:010-6279-0862">010-6279-0862</a>니까 미리 전화하고 가. 
+        그리고 늦은 밤보다는 저녁 8시쯤 가는 게 분위기 좋고 자리도 널널하더라.
+      </p>
+      <p style="border-top: 2px solid #333; padding-top: 1.2rem; margin-top: 1.2rem;">
+        총평: ★★★★★ (강력 추천)<br>
+        가양에서 셔츠룸 갈 일 있으면 여기로 정착하자. 후회 없어.
+      </p>
+    </article>
+
+    <!-- FAQ (matching blog context) -->
+    <h2 style="margin-top: 3rem;">자주 묻는 질문</h2>
+    <div class="faq-item">
+      <h4>Q: 가양 셔츠룸 예약 꼭 해야 하나요?</h4>
+      <p>주말이나 공휴일에는 무조건 예약 추천. 평일 낮에는 워크인도 가능한데, 전화해서 확인하는 게 안전해요. <a href="tel:010-6279-0862">010-6279-0862</a>로 바로 전화하세요.</p>
+    </div>
+    <div class="faq-item">
+      <h4>Q: 가양 셔츠룸 가격대가 어떻게 되
+</body>
+</html>
