@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://t3b05-gy-shirts-rc.node-link.shop/sitemap.xml
+Sitemap: https://gayang-shirt-review.node-link.shop/sitemap.xml
