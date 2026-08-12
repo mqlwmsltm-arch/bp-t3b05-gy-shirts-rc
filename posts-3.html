@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>글 목록 (3/3) · t3b05-gy-shirts-rc</title>
+  <meta name="description" content="t3b05-gy-shirts-rc에 올라온 글 목록입니다.">
+  <link rel="canonical" href="https://gayang-shirt-review.node-link.shop/posts-3.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+ /* ivory-ink design system — editorial luxury, art deco geometric, organic wave flow */
+ :root {
+ --bg-primary: #FAFAF8;
+ --bg-secondary: #F5F4F0;
+ --text-primary: #1a1a1a;
+ --text-secondary: #5c5c5c;
+ --accent-ink: #2c2c2c;
+ --accent-gold: #b8944b;
+ --border-light: #e8e6e0;
+ --shadow-sm: 0 1px 3px rgba(0,0,0,0.04);
+ --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
+ --font-serif: 'Noto Serif KR', serif;
+ --font-sans: 'Noto Sans KR', sans-serif;
+ --radius-sm: 6px;
+ --radius-md: 10px;
+ --transition-smooth: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+ }
+
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+
+ body {
+ font-family: var(--font-sans);
+ background-color: var(--bg-primary);
+ color: var(--text-primary);
+ line-height: 1.7;
+ -webkit-font-smoothing: antialiased;
+ background-image: 
+ radial-gradient(circle at 15% 20%, rgba(184, 134, 75, 0.03) 0%, transparent 50%),
+ radial-gradient(circle at 85% 80%, rgba(44, 44, 44, 0.02) 0%, transparent 50%);
+ }
+
+ .x-wrap-n1z1 {
+ max-width: 780px;
+ margin: 0 auto;
+ padding: 40px 24px 60px;
+ position: relative;
+ }
+
+ .r-btn-fzdj {
+ display: inline-flex;
+ align-items: center;
+ gap: 8px;
+ padding: 12px 28px;
+ background: var(--accent-ink);
+ color: #fff;
+ text-decoration: none;
+ border-radius: var(--radius-sm);
+ font-size: 0.95rem;
+ font-weight: 500;
+ letter-spacing: 0.02em;
+ transition: var(--transition-smooth);
+ border: 1px solid transparent;
+ }
+
+ .r-btn-fzdj:hover {
+ background: var(--accent-gold);
+ color: #1a1a1a;
+ transform: translateY(-1px);
+ box-shadow: var(--shadow-md);
+ }
+
+ .m-card-blbk-list {
+ display: flex;
+ flex-direction: column;
+ gap: 16px;
+ margin: 32px 0;
+ }
+
+ .m-card-blbk-list a {
+ display: block;
+ padding: 24px 28px;
+ background: var(--bg-secondary);
+ border: 1px solid var(--border-light);
+ border-radius: var(--radius-md);
+ text-decoration: none;
+ color: var(--text-primary);
+ transition: var(--transition-smooth);
+ position: relative;
+ overflow: hidden;
+ }
+
+ .m-card-blbk-list a::before {
+ content: '';
+ position: absolute;
+ left: 0;
+ top: 0;
+ width: 3px;
+ height: 100%;
+ background: var(--accent-gold);
+ transform: scaleY(0);
+ transition: transform 0.3s ease;
+ }
+
+ .m-card-blbk-list a:hover {
+ border-color: var(--accent-gold);
+ box-shadow: var(--shadow-md);
+ background: #fff;
+ }
+
+ .m-card-blbk-list a:hover::before {
+ transform: scaleY(1);
+ }
+
+ .m-wrap-qsqx {
+ margin-top: 48px;
+ padding: 32px 28px;
+ background: var(--bg-secondary);
+ border-radius: var(--radius-md);
+ border: 1px solid var(--border-light);
+ }
+
+ nav {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 20px 0;
+ margin-bottom: 40px;
+ border-bottom: 1px solid var(--border-light);
+ }
+
+ .nav-logo {
+ font-family: var(--font-serif);
+ font-size: 1.4rem;
+ font-weight: 700;
+ color: var(--accent-ink);
+ letter-spacing: -0.02em;
+ }
+
+ .hamburger-menu {
+ display: flex;
+ flex-direction: column;
+ gap: 5px;
+ cursor: pointer;
+ padding: 8px;
+ }
+
+ .hamburger-menu span {
+ display: block;
+ width: 24px;
+ height: 2px;
+ background: var(--accent-ink);
+ transition: var(--transition-smooth);
+ }
+
+ .nav-links {
+ display: flex;
+ gap: 32px;
+ list-style: none;
+ }
+
+ .nav-links a {
+ text-decoration: none;
+ color: var(--text-secondary);
+ font-size: 0.9rem;
+ font-weight: 400;
+ letter-spacing: 0.03em;
+ transition: color 0.2s ease;
+ }
+
+ .nav-links a:hover {
+ color: var(--accent-gold);
+ }
+
+ h1 {
+ font-family: var(--font-serif);
+ font-size: 2.2rem;
+ font-weight: 700;
+ color: var(--accent-ink);
+ margin-bottom: 16px;
+ letter-spacing: -0.03em;
+ line-height: 1.3;
+ }
+
+ h2 {
+ font-family: var(--font-serif);
+ font-size: 1.5rem;
+ font-weight: 600;
+ color: var(--accent-ink);
+ margin: 36px 0 16px;
+ letter-spacing: -0.02em;
+ border-left: 3px solid var(--accent-gold);
+ padding-left: 14px;
+ }
+
+ h3 {
+ font-size: 1.1rem;
+ font-weight: 600;
+ color: var(--text-primary);
+ margin: 24px 0 10px;
+ }
+
+ p {
+ margin-bottom: 18px;
+ color: var(--text-secondary);
+ font-size: 0.95rem;
+ }
+
+ .info-tag {
+ display: inline-block;
+ padding: 4px 12px;
+ background: rgba(184, 134, 75, 0.1);
+ color: var(--accent-gold);
+ border-radius: 20px;
+ font-size: 0.8rem;
+ font-weight: 500;
+ margin-right: 8px;
+ margin-bottom: 8px;
+ }
+
+ .highlight-box {
+ background: #faf9f6;
+ border: 1px dashed var(--accent-gold);
+ padding: 20px 24px;
+ border-radius: var(--radius-sm);
+ margin: 24px 0;
+ }
+
+ @media (max-width: 768px) {
+ .x-wrap-n1z1 {
+ padding: 20px 16px 40px;
+ }
+ 
+ .nav-links {
+ display: none;
+ }
+ 
+ .hamburger-menu {
+ display: flex;
+ }
+ 
+ h1 {
+ font-size: 1.7rem;
+ }
+ 
+ h2 {
+ font-size: 1.3rem;
+ }
+ 
+ .m-card-blbk-list a {
+ padding: 18px 20px;
+ }
+ }
+ </style>
+  <meta property="og:title" content="글 목록 (3/3) · t3b05-gy-shirts-rc">
+  <meta property="og:description" content="t3b05-gy-shirts-rc에 올라온 글 목록입니다.">
+  <meta property="og:url" content="https://gayang-shirt-review.node-link.shop/posts-3.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+</head>
+<body>
+  <div class="container">
+    <header>
+ <h1>가양 셔츠룸 정보 — 상세한 지역 특성과 운영 방식 이해하기</h1>
+ <p style="font-size: 1.05rem; color: var(--text-primary);">가양 셔츠룸을 여러 곳 둘러보면서 알게 된 건, 겉으로 보이는 시설이나 분위기보다 실제 운영 방식과 지역 특성이 훨씬 중요하다는 점이었습니다. 이 페이지에서는 제가 직접 경험하고 비교한 내용을 바탕으로, 선택할 때 놓치기 쉬운 상세 정보를 공유하려고 합니다.</p>
+ </header>
+    <main>
+      <h1>글 목록</h1>
+      <p>전체 49개 · 3/3 페이지</p>
+      <ul class="post-list">
+      <li class="post-item">
+        <a class="post-item__link" href="posts/normal-2.html">가양 셔츠룸 방문 시 사전 준비 및 상권 정보 안내</a>
+        <p class="post-item__summary">가양에서 셔츠룸을 이용하려는 분들은 방문 전 해당 업종의 운영 특성을 미리 숙지하는 것이 중요합니다. 일반 복장보다는 단정하고 깔끔한 옷차림을 권장하며, 특히 상의의 주류인 셔츠는 구김이 없이 잘 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/normal-3.html">가양 셔츠룸 관련 정보 안내</a>
+        <p class="post-item__summary">가양 지역에서 셔츠룸을 찾을 때 가장 중요한 것은 정확한 정보 확인입니다. 많은 사람들이 여러 곳을 비교하며 신중하게 선택하려고 합니다. 이때 필요한 것은 신뢰할 수 있는 데이터와 객관적인 안내입니</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-001-16dcbml.html">가양 셔츠룸 추천에 대한 실제 활용 검토</a>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-001-l6r9fx.html">가양 셔츠룸 이용 시 실내 온도와 공기 질에 주목해야 하는 이유</a>
+        <p class="post-item__summary">가양 셔츠룸을 선택할 때 사람들은 흔히 외적인 화려함이나 서비스의 종류에만 집착한다. 하지만 정작 가장 중요한 본질을 놓치는 경우가 많다. 쾌적한 환경은 단순히 인테리어가 깔끔하다고 완성되는 것이 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/review-001.html">홍대 월 3천? 그거만 보고 설레발치다 망하는 거지. &amp;#39;진짜&amp;#39; 원가 구조? 다들 팝콘 뜯으며 구경이나 해봐. (가양 셔츠룸 추천? 글쎄, 난 잘...)</a>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/review-002-1031omv.html">가양 셔츠룸의 조명과 공기의 상관관계</a>
+        <p class="post-item__summary">가양 셔츠룸을 찾는 이들은 흔히 화려한 서비스나 자극적인 구성을 기대하지만, 사실 이곳의 진짜 핵심은 공간이 뿜어내는 특유의 밀도에 있다. 대다수 업장이 무조건 밝고 화려한 조명을 지향할 때, 이곳</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/t3link-001-1031omv.html">가양 셔츠룸 추천</a>
+        <p class="post-item__summary">가양 지역에서 특별한 저녁 시간을 보내기 위해 셔츠룸 방문을 고려하시는 분들이 많습니다. 셔츠룸은 일반적인 유흥 문화와 차별화된 매력을 제공하며 세련된 분위기 속에서 즐거운 시간을 보낼 수 있는 공</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/t3link-002-1t5sh52.html">가양 셔츠룸 추천 관련 추천 정보</a>
+        <p class="post-item__summary">가양 지역에서 셔츠룸을 처음 이용하려는 분들은 기본적인 시설 구성과 서비스 흐름을 미리 파악하는 것이 좋습니다. 일반적으로 룸 내부는 편안한 의자와 조명, 음악 장비가 갖추어져 있으며, 이용 시간과</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/t3link-002-xwuuds.html">가양 셔츠룸 추천 관련 추천 정보</a>
+        <p class="post-item__summary">가양 지역은 지하철과 버스 노선이 잘 갖춰져 있어 이동이 편리하며, 주변에 다양한 편의시설이 밀집해 있어 처음 방문하는 이용자도 부담 없이 찾아갈 수 있습니다.</p>
+      </li>
+      </ul>
+    <nav class="pager">
+      <a class="pager__link" href="posts.html">1</a>
+      <a class="pager__link" href="posts-2.html">2</a>
+      <span class="pager__current">3</span>
+    </nav>
+    </main>
+  </div>
+</body>
+</html>
